@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMFB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets\css\styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#intro">K.BOOKS</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#top1">Top 1</a></li>
+                    <li><a href="#grid-one">Autores</a></li>
+                    <li><a href="#gallery">Indicações</a></li>
+                    <li><a href="#princing">Tabela</a></li>
+                    <li><a href="#contact">Comentários</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <!--Vai distanciar do topo da página-->
+    <section id="intro" class="intro main-bg section">
+        <!--Primeira pág que vai ser dividida em duas macro seções-->
+        <div class="main-content intro-content">
+            <!--vai configurar a grid a partir daqui e centralizar o conteúdo em suas respectivas seções-->
+            <div class="intro-text-content">
+                <!--primeira seção-->
+                <h2>About My Few Books</h2>
+                <p>“Por vezes ganhamos mais experiência com o que lemos <br> do que com o que vemos."</p>
+                <p margin="0 50px 0 0">-Miguel de Cervantes</p>
+                <br>
+            </div>
+            <div class="intro-img">
+                <!--segunda seção-->
+                <img src="assets\img\imgfundo1.svg">
+            </div>
+    </section>
+    <section id="top1" class="white-bg section">
+        <div class="main-content top1-content">
+            <h2>Fahrenheit 451</h2>
+            <p>"Pois enquanto Huxley e Orwell escreveram seus livros sob o impacto dos regimes totalitários (nazismo e
+                stalinismo), Bradbury percebe o nascimento de uma forma mais sutil de totalitarismo: a indústria
+                cultural, a sociedade de consumo e seu corolário ético - a moral do senso comum."</p>
+            <p>A obra de Bradbury descreve um governo totalitário, num futuro incerto mas próximo, que proíbe qualquer
+                livro ou tipo de leitura, prevendo que o povo possa ficar instruído e se rebelar contra o status quo.
+                Tudo é controlado e as pessoas só têm conhecimento dos fatos por aparelhos de TVs instaladas em suas
+                casas ou em praças ao ar livre. O livro conta a história de Guy Montag, que no início tem prazer com sua
+                profissão de bombeiro, cuja função nessa sociedade imune a incêndios é queimar livros e tudo que diga
+                respeito à leitura. Quando Montag conhece Clarisse McClellan, uma menina de dezesseis anos que reflete
+                sobre o mundo à sua volta e que o instiga a fazer o mesmo, ele percebe o quanto tem sido infeliz no seu
+                relacionamento com a esposa, Mildred. Ele passa a se sentir incomodado com sua profissão e descontente
+                com a autoridade e com os cidadãos. A partir daí, o protagonista tenta mudar a sociedade e encontrar sua
+                felicidade.</p>
+        </div>
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Autores Brasileiros</h2>
+            <p class="grid-description">Segue abaixo alguns dos que eu considero mais marcantes pra mim e indico suas
+                obras</p>
+            <div class="grid">
+                <article>
+                    <h3>Machado de Assis</h3>
+                    <p>Machado de Assis (1839-1908) foi um escritor brasileiro, um dos nomes mais importantes da
+                        literatura brasileira do século XIX. Destacou-se principalmente no romance e no conto, embora
+                        tenha escrito crônicas, poesias, crítica literária e peças de teatro.</p>
+                    <p>Suas principais obras são: Memórias Póstumas de Brás Cubas, Dom Casmurro, O Alienista, Quincas
+                        Borba, Helena, A Cartomante e outros.</p>
+                </article>
+                <article>
+                    <h3>Clarice Lispecto</h3>
+                    <p>Clarice Lispector (1920-1977) foi um dos maiores nomes da literatura brasileira do Século XX. Com
+                        seu romance inovador e com sua linguagem altamente poética, sua obra se destacou diante dos
+                        modelos narrativos tradicionais. Seu primeiro livro, “Perto do Coração Selvagem” recebeu o
+                        Prêmio Graça Aranha.</p>
+                    <p>Suas principais obras são: A Hora da Estrela, Água Viva, Perto do Coração Selvagem e muitos
+                        contos e crônicas</p>
+                </article>
+                <article>
+                    <h3>Jessé Souza</h3>
+                    <p>Jessé José Freire de Souza (Natal, 29 de março de 1960) é um sociólogo, advogado, professor
+                        universitário, escritor e pesquisador brasileiro que atua nas áreas de Teoria Social, pensamento
+                        social brasileiro e de estudos teórico-empíricos sobre a desigualdade e as classes sociais no
+                        Brasil contemporâneo.</p>
+                    <p> Suas principais obras são: A Radiografia do Golpe, A Elite do Atraso e A Classe Média no Espelho
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Indicações</h2>
+            <p class="grid-description">Ao clicar na imagem você será redirecionado para um site e poderá ler.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <a href="https://lelivros.love/book/baixar-livro-mulheres-raca-e-classe-angela-davis-em-pdf-epub-e-mobi-ou-ler-online/"
+                        target="_blank">
+                        <img src="assets\img\AngelaDavis.jpg">
+                    </a>
+                </div>
+                <div class="gallery-img">
+                    <a href="https://lelivros.love/book/baixar-livro-morte-e-vida-severina-joao-cabral-de-melo-neto-em-pdf-epub-e-mobi-ou-ler-online/"
+                        target="_blank">
+                        <img src="assets\img\MorteSeverina.jpg">
+                    </a>
+                </div>
+                <div class="gallery-img">
+                    <a href="https://lelivros.love/book/baixar-livro-sapiens-uma-breve-historia-da-humanidade-yuval-noah-harari-em-pdf-epub-e-mobi-ou-ler-online/"
+                        target="_blank">
+                        <img src="assets\img\sapiens.jpg">
+                    </a>
+                </div>
+                <div class="gallery-img">
+                    <a href="https://lelivros.love/book/download-livro-uma-breve-historia-do-tempo-stephen-hawking-em-epub-mobi-e-pdf/"
+                        target="_blank">
+                        <img src="assets\img\breve1.jpg">
+                    </a>
+                </div>
+                <div class="gallery-img">
+                    <a href="https://lelivros.love/book/baixar-livro-cancao-de-ninar-leila-slimani-em-pdf-epub-mobi-ou-ler-online/"
+                        target="_blank">
+                        <img src="assets\img\ninar.jpg">
+                    </a>
+                </div>
+                <div class="gallery-img">
+                    <a href="https://lelivros.love/book/download-livro-memorias-postumas-de-bras-cubas-machado-de-assis-em-epub-mobi-e-pdf/"
+                        target="_blank">
+                        <img src="assets\img\memoria.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="princing" class="white-bg section">
+        <div class="main-content top1-content">
+            <h2>Onde achar conteúdo sobre livros?</h2>
+            <div class="responsive-table">
+                <table>
+                    <caption>Utilizados por mim</caption>
+                    <thead>
+                        <tr>
+                            <th>Sites para compra</th>
+                            <th>Canais no Youtube</th>
+                            <th>Bookstan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Amazon</td>
+                            <td>Ler Antes de Morrer</td>
+                            <td>@biblioleticia</td>
+                        </tr>
+                        <tr>
+                            <td>Submarino</td>
+                            <td>Seja uma Pessoa Melhor</td>
+                            <td>@ad.mariah</td>
+                        </tr>
+                        <tr>
+                            <td>Americanas</td>
+                            <td>Bel Rodrigues</td>
+                            <td>@literalmentejoice</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                        <tr>
+                            <td class="foot1" colspan="3">Me deem feedback sobre essa seção em "Comentários"</td>
+                        </tr>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <!--Primeira pág que vai ser dividida em duas macro seções-->
+        <div class="main-content intro-content">
+            <!--vai configurar a grid a partir daqui e centralizar o conteúdo em suas respectivas seções-->
+            <div class="intro-text-content">
+                <!--primeira seção-->
+                <h2>Contato</h2>
+                <p>Essa seção foi criada para a interação e que possam me dar sujestões de livros, ou algo que eu possa
+                    melhorar, opiniões sobre determinada obra, se achou algo ofensivo, aceito qualquer feedback.</p>
+            </div>
+            <div class="intro-img">
+                <!--segunda seção-->
+                <img src="assets/img/imgfundo1.svg">
+            </div>
+        </div>
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Contact me</legend>
+                <div class="form-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" placeholder="...@email.com">
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <input cols="30" rows="10" name="message" id="message" placeholder="Text...">
+                </div>
+                <div class="form-group full-width">
+                    <button type="submit">Send message</button>
+                </div>
+            </fieldset>
+        </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p><a href="">Made by Klarissa</a></p>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
